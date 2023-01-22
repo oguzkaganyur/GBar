@@ -41,14 +41,18 @@ V. Run GBar
  
  2. Create SuspiciousCodePositions folder.
 
- 3. Run compileAllVul4j.sh
+ 3. Edit .sh files accordingly such that all given paths are right.
+ 
+ 4. Edit .java files under src directory such that all given paths are right.
+
+ 5. Run compileAllVul4j.sh
     - ```sh compileAllVul4j.sh``` 
     - to create project folders in D4J/projects
  
- 4. Run runGZoltarForAllVul4j.sh - make sure that loop contains all bug ids, if GZoltar does not work check step IV.
+ 6. Run runGZoltarForAllVul4j.sh - make sure that loop contains all bug ids, if GZoltar does not work check step IV.
       - ```sh runGZoltarForAllVul4j.sh```
       - Check the SuspiciousCodePositions/$bug_id$/sfl/txt/ochiahi.ranking.csv.
       - Whether it is filled or not + whether the first lines have values bigger than 0.
       
- 5. Run GBar with for loop extension
+ 7. Run GBar with for loop extension
 
